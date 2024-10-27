@@ -1,0 +1,36 @@
+.authorContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .authorCard {
+    background-color: #e3f2fd;
+    border: 2px solid #90caf9;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 16px;
+    width: 280px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .authorCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .authorName {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1565c0;
+    margin-bottom: 8px;
+  }
+  
+  .authorBio {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 12px;
+  }
+  

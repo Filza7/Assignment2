@@ -1,0 +1,27 @@
+.button {
+    background-color: #3498db; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Adjusted padding for balance */
+    font-size: 14px; /* Font size for the button */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    margin-top: 15px; /* Space above button */
+    display: block; /* Block display to allow centering */
+    width: 80%; /* Set width to 80% of the card */
+    max-width: 200px; /* Limit max width to maintain structure */
+    text-align: center; /* Center text within the button */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+.button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.button:active {
+    transform: translateY(0); /* Reset on click */
+}

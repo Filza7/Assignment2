@@ -1,0 +1,73 @@
+.bookContainer {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    gap: 20px; /* Space between book cards */
+    justify-content: center; /* Center align items */
+    margin: 20px; /* Margin around the container */
+}
+
+.bookCard {
+    background-color: #ffffff; /* White background for the card */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    width: 300px; /* Fixed width for each book card */
+    transition: transform 0.2s, box-shadow 0.2s; /* Hover effects */
+    display: flex; /* Use flexbox for internal layout */
+    flex-direction: column; /* Arrange elements vertically */
+    justify-content: space-between; /* Space between title, description, details, and button */
+}
+
+.bookCard:hover {
+    transform: translateY(-5px) scale(1.02); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.bookTitle {
+    font-size: 20px; /* Title font size */
+    font-weight: bold; /* Bold title */
+    color: #2c3e50; /* Dark color for title */
+    margin-bottom: 10px; /* Space below title */
+    text-align: center; /* Center title */
+}
+
+.bookDescription {
+    font-size: 15px; /* Description font size */
+    color: #34495e; /* Description color */
+    margin-bottom: 15px; /* Space below description */
+    line-height: 1.5; /* Line height for readability */
+    text-align: justify; /* Justified text for cleaner look */
+    flex-grow: 1; /* Allow description to grow */
+}
+
+.bookDetails {
+    font-size: 14px; /* Details font size */
+    color: #7f8c8d; /* Softer color for details */
+    text-align: center; /* Centered text */
+    margin-top: 10px; /* Space above details */
+}
+
+/* Button styles */
+.button {
+    background-color: #17e443; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Button padding */
+    font-size: 14px; /* Font size for button */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+    margin-top: 10px; /* Space above button */
+    display: inline-block; /* Align nicely with surrounding text */
+}
+
+.button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.button:active {
+    transform: translateY(0); /* Reset on click */
+}

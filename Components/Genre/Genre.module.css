@@ -1,0 +1,26 @@
+.genreContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .genreBadge {
+    background-color: #ffe082;
+    color: #5d4037;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px solid #ffb300;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  
+  .genreBadge:hover {
+    transform: scale(1.1);
+    background-color: #ffb300;
+    color: #fff;
+  }
+  
